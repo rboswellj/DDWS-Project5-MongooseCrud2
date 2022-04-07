@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+<!-- called by edit student data link in nav bar -->
+<h3>Get a trip's Info</h3>
+
+<p>Enter the trip date.</p>
+  
+ <form method='post' action='/displayTripInfo'>
+   <div class="form-group">
+      <label for="date">Enter Date</label>
+      <input type='text' name='date'>
+   </div>
+    <p><input type='submit'></p>
+ </form>
+ 
+ {% endblock %}
+
+
+

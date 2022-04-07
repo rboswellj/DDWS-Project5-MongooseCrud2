@@ -1,0 +1,359 @@
+[{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b29"
+  },
+  "driver": "andy",
+  "date": "2017-02-06",
+  "city": "chicago",
+  "miles": 681,
+  "gallons": 25.3
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b2b"
+  },
+  "driver": "barb",
+  "date": "2017-03-14",
+  "city": "nashville",
+  "miles": 399,
+  "gallons": 14.1
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b2a"
+  },
+  "driver": "barb",
+  "date": "2017-03-01",
+  "city": "cincinnati",
+  "miles": 240,
+  "gallons": 8
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b2d"
+  },
+  "driver": "dana",
+  "date": "2017-04-14",
+  "city": "chicago",
+  "miles": 672,
+  "gallons": 22
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b2e"
+  },
+  "driver": "barb",
+  "date": "2017-05-07",
+  "city": "indianapolis",
+  "miles": 254,
+  "gallons": 8.8
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b2f"
+  },
+  "driver": "andy",
+  "date": "2017-05-14",
+  "city": "chicago",
+  "miles": 677,
+  "gallons": 21.2
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b30"
+  },
+  "driver": "barb",
+  "date": "2017-06-07",
+  "city": "cincinnati",
+  "miles": 243,
+  "gallons": 9.1
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b2c"
+  },
+  "driver": "carl",
+  "date": "2017-04-04",
+  "city": "nashville",
+  "miles": 377,
+  "gallons": 11.4
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b32"
+  },
+  "driver": "dana",
+  "date": "2017-07-02",
+  "city": "chicago",
+  "miles": 695,
+  "gallons": 19.9
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b33"
+  },
+  "driver": "carl",
+  "date": "2017-07-14",
+  "city": "indianapolis",
+  "miles": 246,
+  "gallons": 8.1
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b31"
+  },
+  "driver": "barb",
+  "date": "2017-06-14",
+  "city": "nashville",
+  "miles": 391,
+  "gallons": 13.3
+},{
+  "_id": {
+    "$oid": "5bd7335b802c8e1cd8aa7b34"
+  },
+  "driver": "carl",
+  "date": "2018-01-01",
+  "city": "cincinnati",
+  "miles": 230,
+  "gallons": 8.5
+},{
+  "_id": {
+    "$oid": "5e9af3c2a3a8b830b0a75cf8"
+  },
+  "driver": "andy",
+  "date": "2018-01-02",
+  "miles": 600,
+  "gallons": 40,
+  "city": "chicago",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e9af9dac280341560259c66"
+  },
+  "driver": "barb",
+  "city": "chicago",
+  "date": "2018-01-03",
+  "miles": 602,
+  "gallons": 40,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e9c9cc261818c299cc5c937"
+  },
+  "driver": "andy",
+  "city": "chicago",
+  "date": "2019-01-01",
+  "miles": 678,
+  "gallons": 67,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e9ca6978cdd013ed88fdb53"
+  },
+  "driver": "dana",
+  "date": "2019-01-02",
+  "miles": 444,
+  "gallons": 44,
+  "city": "chicago",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e9cb14509590d195c83c322"
+  },
+  "driver": "dana",
+  "date": "2019-01-04",
+  "city": "chicago",
+  "miles": 560,
+  "gallons": 20,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e9d9033a7ad1b438498783d"
+  },
+  "driver": "dana",
+  "date": "2019-01-05",
+  "city": "cincinnati",
+  "miles": 250,
+  "gallons": 15,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e9d95f8ff19c8076816880e"
+  },
+  "driver": "barb",
+  "city": "cincinnati",
+  "date": "2019-01-06",
+  "miles": 270,
+  "gallons": 25,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e9d97e4b7fcaf211497095a"
+  },
+  "driver": "carl",
+  "date": "2019-01-7",
+  "city": "cincinnati",
+  "miles": 230,
+  "gallons": 14,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e9da7ce21e6d23aecfcd7e4"
+  },
+  "driver": "dana",
+  "date": "2019-01-08",
+  "city": "nashville",
+  "miles": 420,
+  "gallons": 14,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6057bcc3942eda4fe8193592"
+  },
+  "driver": "carl",
+  "date": "2020-01-01",
+  "city": "Cincinnati",
+  "miles": 250,
+  "gallons": 8,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60764bea5fe43d1ce0386767"
+  },
+  "driver": "carl",
+  "date": "2020-01-02",
+  "city": "Chicago",
+  "miles": 999,
+  "gallons": 44,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6079cd053083ba442cad3b42"
+  },
+  "driver": "carl",
+  "date": "2020-01-05",
+  "city": "Chicago",
+  "miles": 600,
+  "gallons": 25,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607a2a22db8df2132cacc857"
+  },
+  "driver": "carl",
+  "date": "2020-01-06",
+  "city": "cincinnati",
+  "miles": 200,
+  "gallons": 20,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607ae51ef8a640334057a5b0"
+  },
+  "driver": "dana",
+  "date": "2020-01-07",
+  "city": "chicago",
+  "miles": 660,
+  "gallons": 66,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607b40adf1363c35e4596e46"
+  },
+  "driver": "carl",
+  "city": "indianapolis",
+  "date": "2020-01-08",
+  "miles": 200,
+  "gallons": 8,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607c1b56a689b03174224821"
+  },
+  "driver": "barb",
+  "date": "2020-01-09",
+  "city": "chicago",
+  "miles": 600,
+  "gallons": 22,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607c99177b2be128c838afff"
+  },
+  "driver": "andy",
+  "date": "2020-01-12",
+  "city": "cincinnati",
+  "miles": 600,
+  "gallons": 20,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607d730e339db922a4804be2"
+  },
+  "driver": "andy",
+  "date": "2020-01-13",
+  "city": "chicago",
+  "miles": 600,
+  "gallons": 20,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607d783f9c6c5f218c530ac4"
+  },
+  "driver": "barb",
+  "date": "2020-01-14",
+  "city": "cincinnati",
+  "miles": 220,
+  "gallons": 11,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607d7b317426ff0cec717a40"
+  },
+  "driver": "andy",
+  "date": "2020-01-15",
+  "miles": 501,
+  "city": "chicago",
+  "gallons": 12,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607d8dc2e5abc61bf43fe11d"
+  },
+  "driver": "barb",
+  "date": "2020-01-16",
+  "city": "chicago",
+  "miles": 602,
+  "gallons": 22,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607d946ba975002d581d4e67"
+  },
+  "driver": "andy",
+  "city": "indianapolis",
+  "date": "2020-01-17",
+  "miles": 250,
+  "gallons": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607d9b0152fb8c3dfc325ad2"
+  },
+  "driver": "dana",
+  "date": "2020-01-18",
+  "city": "cincinatti",
+  "miles": 240,
+  "gallons": 8,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607db8db122b9f165c93f475"
+  },
+  "driver": "barb",
+  "date": "2020-01-19",
+  "city": "indianapolis",
+  "miles": 250,
+  "gallons": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607dbd017b45b7389cc1dc3a"
+  },
+  "driver": "barb",
+  "date": "2020-01-21",
+  "city": "cincinnati",
+  "miles": 255,
+  "gallons": 10,
+  "__v": 0
+}]

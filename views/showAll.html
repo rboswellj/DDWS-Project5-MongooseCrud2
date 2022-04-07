@@ -1,0 +1,23 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+<h2>All Trip Data</h2>
+
+<table class='table'>
+<tr><th>Date</th><th>Driver</th><th>City</th><th>Miles</th><th>Gallons</th><th>MPG</th><th>Edit</th></tr>
+{% for t in trips %}
+   <tr>
+	  <td>{{t.date}}</td>
+	  <td>{{t.driver}}</td>
+	  <td>{{t.city}}</td>
+	  <td>{{t.miles}}</td>
+	  <td>{{t.gallons}}</td>
+	  <td>{{t.mpg}}</td>
+      <td>edit</td>
+   </tr>
+{% endfor %}
+</table>
+<br>
+
+{% endblock %}

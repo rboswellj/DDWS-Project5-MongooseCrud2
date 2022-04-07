@@ -1,0 +1,38 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+<h3>Add a New Student Page</h3>
+<p>Enter the following information.</p>
+
+<form method='post' action='addTrip'>
+    <div class="form-group">
+    <label for="date" class="form-label">Trip Date:</label>
+    <input type='text' name='date' class="form-control">
+    </div>
+    <div class="form-group">
+    <label for="driver" class="form-label">Driver</label>
+        <input type='text' name='driver' class="form-control">
+    </div>
+    <div class="form-group">
+    <label for="miles" class="form-label">Miles</label>
+        <input type='text' name='miles' class="form-control">
+    </div>
+    <div class="form-group">
+    <label for="gallons" class="form-label">Miles</label>
+        <input type='text' name='gallons' class="form-control">
+    </div>
+    <div class="form-group">
+    <label for="city" class="form-label">City:</label><br>
+        <select class='select' name='city' class="form-control-large">
+        <option value='chicago'>Chicago</option>
+        <option value='nashville'>Nashville</option>
+        <option value='cincinnati'>Cincinnati</option>
+        <option value='indianapolis'>Indianapolis</option>
+        </select>
+    </div>
+
+<input type='submit' class="btn btn-primary">
+</form>
+
+{% endblock %}
