@@ -96,7 +96,7 @@ app.use('/addTrip', (req, res) => {
 // Get all trips for selected city
 app.use('/getByCity', (req, res) => {   
     if(req.method == "GET") {
-		res.render('getTripsForm', {title: 'trips by city'}); // send form
+		res.render('getCityForm', {title: 'trips by city'}); // send form
 	}
 	else if(req.method == "POST") {
 		

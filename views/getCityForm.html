@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+<!-- called by get by major link in nav bar -->
+<h3>Get Students by Major</h3>
+<p>Use the select list to filter students by major.</p>
+<p>
+<form method='post' action='/getByMajor'>
+<select name='major' class='select'>
+  <option value='BUS'>BUS</option>
+  <option value='CIT'>CIT</option>
+  <option value='EET'>EET</option>
+  <option value='WEB'>WEB</option>
+</select> Select Major </p>
+
+<p><input type='submit'></p>
+</form>
+
+{% endblock %}
+
