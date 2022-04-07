@@ -127,17 +127,17 @@ app.use('/displayTripInfo', (req, res) => {
 					
 		var date = req.body.date;
 	
-		Trip.findOne( {date: date}, (err, trip) => {
+		Trip.findOne( {date: date}, (err, aTrip) => {
 		
 			if (err) {
 				res.render('resultpage', {result : err});   
 			}
-			else if (!trip) {
+			else if (!aTrip) {
 				res.render('resultpage', {result : `No trip on date ${date}`});   
 			}
 			else {		
-		    console.log(trip);
-			res.render('editTripInfo', {tripData: trip});
+		    console.log(aTrip);
+			res.render('editTripInfo', {tripData: aTrip});
 			}
 	   });    
 	
@@ -147,6 +147,7 @@ app.use('/displayTripInfo', (req, res) => {
 app.post('/updateTripInfo', (req, res) => { 
 	
 	var date = req.body.date;
+	console.log(date);
 	Trip.findOne( {date: date}, (err, aTrip) => {  
 		if (err) {
 			res.render('resultpage', {result : err});   
@@ -159,7 +160,7 @@ app.post('/updateTripInfo', (req, res) => {
 			if(req.body.newMiles) Trip.miles = req.body.newMiles;
 			if(req.body.newGallons) Trip.gallons = req.body.newGallons;
 			
-			Trip.save((err) => { 
+			aTrip.save((err) => { 
 				if(err) {
 					res.render('resultpage', {result : err});   
 				}

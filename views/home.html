@@ -14,7 +14,13 @@
 	  <td>{{t.miles}}</td>
 	  <td>{{t.gallons}}</td>
 	  <td>{{t.mpg}}</td>
-      <td>edit</td>
+	  <td>
+        <form method="post" action="/displayTripInfo">
+			<input type="hidden" name="date" value="{{t.date}}">
+            <input type="submit" value="Edit">
+        </form>
+     </td>
+      <!-- <td>edit</td> -->
    </tr>
 {% endfor %}
 </table>
