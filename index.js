@@ -36,10 +36,6 @@ app.get('/', (req, res) => {
 		    }
 		    else {
 			   	res.render('home', { trips: allTrips });
-                allTrips.forEach(trip => {
-                    console.log(trip);
-                }
-                )
 		    }
 		}
 	});
@@ -57,10 +53,6 @@ app.get('/showAll', (req, res) => {
 		    }
 		    else {
 			   	res.render('home', { trips: allTrips });
-                allTrips.forEach(trip => {
-                    console.log(trip);
-                }
-                )
 		    }
 		}
 	});
@@ -136,7 +128,6 @@ app.use('/displayTripInfo', (req, res) => {
 				res.render('resultpage', {result : `No trip on date ${date}`});   
 			}
 			else {		
-		    console.log(aTrip);
 			res.render('editTripInfo', {tripData: aTrip});
 			}
 	   });    
@@ -147,7 +138,6 @@ app.use('/displayTripInfo', (req, res) => {
 app.post('/updateTripInfo', (req, res) => { 
 	
 	var date = req.body.date;
-	console.log(date);
 	Trip.findOne( {date: date}, (err, aTrip) => {  
 		if (err) {
 			res.render('resultpage', {result : err});   
@@ -156,9 +146,9 @@ app.post('/updateTripInfo', (req, res) => {
 				res.render('resultpage', {result : 'No trip with that date'});   
 		}
 		else {   
-			if(req.body.newDriver) Trip.driver = req.body.newDriver; 
-			if(req.body.newMiles) Trip.miles = req.body.newMiles;
-			if(req.body.newGallons) Trip.gallons = req.body.newGallons;
+			if(req.body.newDriver) aTrip.driver = req.body.newDriver; 
+			if(req.body.newMiles) aTrip.miles = req.body.newMiles;
+			if(req.body.newGallons) aTrip.gallons = req.body.newGallons;
 			
 			aTrip.save((err) => { 
 				if(err) {
@@ -187,8 +177,7 @@ app.get('/deleteTrip', (req, res) => {
             var msg = `Trip with date ${date} has been deleted`;
             res.render('resultPage', { result : msg });
         }
-    });
-    
+    }); 
 });
 
 
